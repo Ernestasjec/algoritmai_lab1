@@ -16,6 +16,7 @@ namespace A_lab1
         static Random random;
         static void Main(string[] args)
         {
+            //pakeitimas
             int seed = (int)DateTime.Now.Ticks & 0x0000FFFF;
             random = new Random(seed);
             List<int> kiekiai = new List<int>{ 1000, 2000, 4000, 8000, 16000, 32000, 64000 };
